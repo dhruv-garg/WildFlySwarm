@@ -14,6 +14,7 @@ Three ways to get started with WildFLy Swarm-
 
    Link:- http://wildfly-swarm.io/generator/
 3) JBoss Forge tool.
+
    Probably the most cool one.
 
 This procedure is written in context of JBoss Forge tool.
@@ -64,8 +65,11 @@ If you followed all the steps correctly then output shoudl look like:
 If not, steps need to recheked again.
 
 Let's set it up for a JAX-RS application:
+
 -> rest-setup --application-path=/
+
 Desired output:
+
     ***SUCESSS*** JAX_RS has been installed
 
 Let's add in the wildfly swarm configs like the Maven plug-in an the BOM dependency management section:
@@ -91,6 +95,7 @@ Run forge if it is not already running
 -> rest-new-endpoint
 
 Desired Output: 
+
 ***INFO*** Required inputs not satisfied, interactive mode
 
 -> ?Package Name: press enter
@@ -105,6 +110,7 @@ Desired Output:
 ***SUCCESS*** REST com.dhruv.examples.wfswarm.rest.NewResource created
 
 After this process, a new java class named NewResource should be created and should be exposed to the path we mentioned.
+
 Great, isn't it?
 
 Let's fire it up again:
