@@ -1,10 +1,10 @@
-WildFly Swarm for MicroServices
+<h1>WildFly Swarm for MicroServices</h1>
 
 WildFly emerged as an enterprise-capable open source application server.
 
 WildFlySwarm is a complete teardown of the WildFly application server into bite-sized, reusable components called fractions that can be assembled and formed into a microservice application that leverages Java EE API's.
 
-Getting Started: 
+<h3>Getting Started:</h3>
 
 Three ways to get started with WildFLy Swarm-
 
@@ -19,15 +19,15 @@ Three ways to get started with WildFLy Swarm-
 
 This procedure is written in context of JBoss Forge tool.
 
-Installation:
+<h3>Installation:</h3>
 
 Download JBoss Forge (Linux Version) : https://forge.jboss.org/download
 
 Untar the file and run forge located in bin folder.
 
-Prerequisites: Make sure that Java 8 or above is installed.
+**Prerequisites**: Make sure that Java 8 or above is installed.
 
-Basic Run Commands:
+**Basic Run Commands:**
 
 -> forge
 
@@ -76,7 +76,7 @@ Let's add in the wildfly swarm configs like the Maven plug-in an the BOM depende
 
 -> wildfly-swarm-setup --context-path=/
 
-That's it! Now let's build and try to run our new WildFly Swarm microservice:
+*That's it! Now let's build and try to run our new WildFly Swarm microservice:*
 
 -> cd ~~
 
@@ -109,7 +109,7 @@ Desired Output:
 Desired Output: 
 ***SUCCESS*** REST com.dhruv.examples.wfswarm.rest.NewResource created
 
-After this process, a new java class named NewResource should be created and should be exposed to the path we mentioned.
+**After this process, a new java class named NewResource should be created and should be exposed to the path mentioned.**
 
 Great, isn't it?
 
@@ -119,8 +119,8 @@ Let's fire it up again:
 
 -> wildfly-swarm-run
 
-Navigate to a browser and type http://localhost:8080/api/hello
+*Navigate to a browser* and type http://localhost:8080/api/hello
 
 What we did in the whole process was, we built a JAX-RS web applicationusing native Java EE with the JBoss Forge tooling and then ran it as a microservice inside WildFlySwarm.
 
-Source: MicroServices for Java Developers Book by Christian Posta
+**Source**: MicroServices for Java Developers Book by Christian Posta
